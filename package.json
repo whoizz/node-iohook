@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
+    "preinstall": "git clone https://github.com/whoizz/libuiohook",
     "install": "cmake-js compile"
   },
   "keywords": [
@@ -23,8 +24,6 @@
   },
   "cmake-js": {
     "runtime": "electron",
-    "runtimeVersion": "1.4.5"
-    
+    "runtimeVersion": "1.7.5"
   }
-
 }
